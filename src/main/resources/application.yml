@@ -1,6 +1,14 @@
 spring:
   application:
     name: config
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://gitlab-demo.com/6003575/my-config-repo.git
+          username: 6003575
+          password: abcd1234
+          basedir: /Users/daiqiang/Dev/java/springcloud_sell/config-repo
 eureka:
   client:
     service-url:
