@@ -9,6 +9,7 @@ spring:
           username: 6003575
           password: abcd1234
           basedir: /Users/daiqiang/Dev/java/springcloud_sell/config-repo
+          force-pull: true
 eureka:
   client:
     service-url:
